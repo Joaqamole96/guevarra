@@ -1,0 +1,117 @@
+.header
+{
+	background-color: #008338;
+	width: 100%;
+	height: 135px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+	.ccis, .comsoc
+	{
+		width: 100px;
+		height: 100px;
+		vertical-align: center;
+	}
+
+	.menu
+	{
+		width: 75px;
+		height: 75px;
+}
+
+.nav
+{
+	background-color: #23A65B;
+	height: 50px;
+}
+
+	.path
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+
+.body
+{
+	width: 100%;
+	height: 700px;
+}
+
+	.body_featured
+	{
+		width: 100%;
+		height: 300px;
+	
+	}
+	
+		.featuredimg
+		{
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	
+	.body_content
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	
+		.body_value
+		{
+			background-color: #D0AFFC;
+			display: flex;
+			flex-direction: row;
+			margin: 10px;
+		}
+		
+			.value
+			{
+				padding: 10px 40px 10px;
+			}
+	
+				.value_title
+				{
+					text-align: center;
+				}
+				
+				.value_para
+				{
+					text-align: center;
+				}
+			
+				.value_img
+				{
+					object-fit: cover;
+					width: 200px;
+					height: 200px;
+					justify-content: center;
+				}
+				
+				.value_button
+				{
+					margin-left: 50px;
+				}
+
+		.body_gallery
+		{
+			background-color: #D0AFFC;
+			margin: 10px;
+		}
+		
+			.gallery_selectedimg
+			{
+				object-fit: cover;
+				width: 95%;
+				height: 100%;
+				margin: 2.5%;
+			}
+
+.footer
+{
+	background-color: #008338;
+	width: 100%;
+	height: 150px;
+}
